@@ -1,6 +1,41 @@
 # SocialLinksProfile
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+A responsive social links profile built using Angular and Tailwind CSS, inspired by the Social Links Profile challenge from Frontend Mentor. This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+
+## Live Demo
+
+[View Live Website](https://developer-vishal-yv.github.io/Social-links-profile/)
+
+## Preview
+
+The project displays a profile with a user image, name, location, bio, and social media links with interactive hover effects.
+
+## Built With
+
+-> Angular — Component-based frontend development
+-> TypeScript — Application logic and data typing
+-> HTML5 — Page structure
+-> Tailwind CSS — Styling, layout, and hover effects
+
+## Features
+
+-> Profile image with rounded styling
+-> User name, location, and biography
+-> Social media links for GitHub, Frontend Mentor, LinkedIn, Twitter/X, and Instagram
+-> Dynamic content using Angular interpolation
+-> Property binding for image attributes and link URLs
+-> Angular @for control flow to render social links dynamically
+-> Interactive hover effects using Tailwind CSS
+-> Responsive layout for different screen sizes
+
+## What I Learned
+
+-> Creating and organizing Angular components
+-> Using interpolation and property binding
+-> Defining TypeScript types for structured data
+-> Rendering lists with Angular's @for syntax
+-> Applying Tailwind CSS utility classes and hover states
+-> Deploying an Angular project using GitHub Pages
 
 ## Development server
 
