@@ -1,0 +1,16 @@
+<div class="flex flex-col justify-center items-center p-4">
+  <img [src]="user_image_link" [alt]="user_image_description" class="rounded-full h-20 w-20" />
+  <div class="flex flex-col justify-center items-center text-center p-4">
+    <h1 class="text-2xl text-White font-bold">{{user_name}}</h1>
+    <p class="text-sm text-Green font-semibold">{{location}}</p>
+  </div>
+
+  <p class="text-sm text-White font-normal">{{bio_description}}</p>
+</div>
+@for (social_media of social_media_apps; track social_media) {
+  <ul class="flex justify-center items-center h-auto w-80 max-lg:w-72">
+    <li class="flex flex-col justify-center items-center h-auto w-full py-2">
+      <a [href]="social_media.app_link" class="bg-grey_700 hover:bg-Green text-White hover:text-grey_900 w-full p-3 text-center rounded-lg font-normal text-sm">{{social_media.app_name}}</a>
+    </li>
+  </ul>
+}
